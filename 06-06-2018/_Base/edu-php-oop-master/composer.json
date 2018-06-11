@@ -1,0 +1,12 @@
+{
+    "name": "keeper/edu-php-oop",
+    "description": "Крус объектно-ориентированный подход в php",
+    "type": "lesson",
+    "authors": [
+        {
+            "name": "Oleksandr Nykytin",
+            "email": "keeper@ninydev.com"
+        }
+    ],
+    "require": {}
+}

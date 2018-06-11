@@ -1,0 +1,21 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "ftp",
+  "hostname": "keeper.step.local",
+  "port": "21",
+  "username": "keeperftp",
+  "password": "Qwerty123",
+  "target": "/web/B2/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "watch": [
+    "/*.*"
+  ],
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": true
+}

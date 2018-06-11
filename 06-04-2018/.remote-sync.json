@@ -1,0 +1,15 @@
+{
+  "transport": "ftp",
+  "hostname": "keeper.step.local",
+  "port": 21,
+  "username": "keeperftp",
+  "password": "Qwerty1234",
+  "target": "/web/B2/06-06-2018",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "watch":[
+    "/"
+  ]
+}

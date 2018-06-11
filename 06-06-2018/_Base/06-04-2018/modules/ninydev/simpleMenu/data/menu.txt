@@ -1,0 +1,1 @@
+{"1":{"url":"index_mvc.php?controller=ninydevMenu","text":"Управление меню","child":[2,3],"parent":0},"2":{"url":"index_mvc.php?controller=ninydevMenu&action=menuAddElement","text":"Добавить элемент","child":0,"parent":1},"3":{"url":"page.html","text":"new333","child":0,"parent":0}}

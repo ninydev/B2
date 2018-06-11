@@ -1,0 +1,17 @@
+{
+  "name": "ITStep-backend/namespace",
+  "description": "IT-Step.BackEnd::PHP('OOP', 'NameSpace', 'Autoload')",
+  "type": "lession",
+  "authors": [{
+    "name": "Oleksandr Nykytin",
+    "email": "nikitin_a@itstep.org"
+  }],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Country\\": "../Country/"
+    }
+  }
+
+}
