@@ -9,26 +9,13 @@
  * @package IT-Step.BackEnd::PHP('OOP', 'Namespace', 'Autoload')
  * @author  Oleksandr Nykytin <nikitin_a@itstep.org>
  */
-namespace Country\USA;
+namespace Country\Ukraine;
 
 /**
  * Определяем функцию, которая выступит в качестве загрузчика
  * и заменит require
  */
- 
- spl_autoload_register(
-    function ($class) {
-		echo '<h1>Try to search 1</h1>';
-	}
-	);
- 
- spl_autoload_register(
-    function ($class) {
-		echo '<h2>Try to search 2</h2>';
-	}
-	);
- 
- 
+
 spl_autoload_register(
     function ($class) {
         echo '<ul class="info"><li> Try find class: ' . $class . '</li>' . PHP_EOL;
